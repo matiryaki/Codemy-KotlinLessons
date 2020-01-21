@@ -6,7 +6,7 @@ fun main() {
     Numbers(Byte, Short, Int, Long, Double, Float) & Unsigned Types
     Characters
     Booleans
-    Arras
+    Arrays
     String
     Decimals [0-9]
     Octals [0-7] Kotlin tarafindan desteklenmiyor.
@@ -24,7 +24,7 @@ fun main() {
      *      Bundan dolayı performans olarak Java'dan farkli degildir.
      *      Kontrol etmek icin:
      *      1- Bir programı calistirin.
-     *      2- Ctrl + Alt + A -> Show Kotlin Bytecode
+     *      2- Ctrl + Shift + A -> Show Kotlin Bytecode
      *      3- Isterseniz decompiler diyerek Java kodundaki karsiligini da gorebilirsiniz.
      */
 

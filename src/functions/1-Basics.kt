@@ -82,7 +82,7 @@ fun reformatMessage(message: String, isUpperCase: Boolean = false, size: Int, la
  * **/
 @JvmOverloads
 fun print(message: String = "Message") {
-
+    println(message)
 }
 
 /**

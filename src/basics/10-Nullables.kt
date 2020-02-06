@@ -10,7 +10,7 @@ fun main() {
     val name: String? = null
     val age: Int? = null
 
-    val number3: Nothing? = null
+    val number3 = null // Nothing?
 
     var number1: Int? = null
     var number2: Int? = null

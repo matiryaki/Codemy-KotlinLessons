@@ -16,6 +16,8 @@ fun main() {
 
     val countryCode = readLine()!!
     when (countryCode.toLowerCase()) {
+//        "tr" and "az" -> println("TC Vatandası")
+//        "tr" or "az" -> println("TC Vatandası")
         "tr", "az" -> println("TC Vatandası")
         "ar" -> println("Arab Vatandası")
         "fr" -> println("France Vatandası")

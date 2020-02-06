@@ -87,7 +87,7 @@ fun main() {
      *      Number degisken tanimi yapilirken underscore "_" kullanilabilir.
      */
 
-    val oneMillion = 1_000_000
+    val oneMillion = 1_000_000 // 1000000
     val creditCardNumber = 1234_5678_9012_3456L
     val bytes = 0b01000011_01101111_01100100_01100101_01101101_01111001
 
@@ -100,7 +100,7 @@ fun main() {
      *     ==   operatoru degiskenlerin degerini karsilastirirken kullanilir.
      */
 
-    val number: Int = 10000
+    val number: Int = 10000 // int
     println(number === number) // true
     val boxedNumber: Int? = number
     val anotherBoxedNumber: Int? = number

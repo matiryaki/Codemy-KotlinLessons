@@ -21,8 +21,8 @@ fun main() {
     }
 
     val awesomeCodemy = "Codemy is Awesome"
-    val firstCharOfAwesomeCodemy = awesomeCodemy[0]
-    val lastCharOfAwesomeCodemy = awesomeCodemy[awesomeCodemy.length]
+    val firstCharOfAwesomeCodemy = awesomeCodemy[awesomeCodemy.indices.first]
+    val lastCharOfAwesomeCodemy = awesomeCodemy[awesomeCodemy.indices.last]
 
 /* -------------------------------------------------------------------------------------------------------------------*/
 

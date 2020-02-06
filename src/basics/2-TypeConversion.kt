@@ -51,7 +51,7 @@ fun main() {
      *      cikan degerin tipinde olacaktir.
      * **/
 
-    val totalValue: Long = tcIdentityNumber + schoolNumber // Long + Int = Long
+    val totalValue: Long = tcIdentityNumber + schoolNumber // Long + Byte = Long
 
 /* -------------------------------------------------------------------------------------------------------------------*/
 

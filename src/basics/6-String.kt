@@ -53,6 +53,7 @@ fun main() {
      *      trimIndent() fonksiyonu ile bu Raw String'in kenar bosluklarini silebilirsiniz.
      *      Bu silme islemini yaparken tum satirlardaki en soldaki karakteri baz alarak silme islemini saglar.
      *      Alttaki ornek icin 3 satirdan da $ isaretinin solundaki bosluga kadarini siler.
+     *      Raw Stringlerin icinde escape karakterler calismaz.
      * **/
     val rawPineTree = """
                 *
